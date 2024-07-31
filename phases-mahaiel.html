@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>phases-mahaiel  </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 60%;
+            margin: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #d9d9d9;
+        }
+        .button-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        button {
+            margin: 0 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="button-container">
+            <button onclick="window.print()">Print</button>
+            <button onclick="copyContent()">Copy Content</button>
+        </div>
+
+        <h2><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phases-Mahaiel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 60%;
+            margin: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #d9d9d9;
+        }
+        .button-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        button {
+            margin: 0 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="button-container">
+            <button onclick="window.print()">Print</button>
+            <button onclick="copyContent()">Copy Content</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Phase</th>
+                    <th>From</th>
+                    <th>To</th>
+                    <th>Total shafts</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Phase 1</td>
+                    <td>KP 5+196</td>
+                    <td>KP 53+213</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>Phase 2</td>
+                    <td>KP 53+213</td>
+                    <td>KP 80+711</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Phase 3</td>
+                    <td>KP 80+711</td>
+                    <td>KP 110+539</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Phase 4</td>
+                    <td>KP 110+539</td>
+                    <td>KP 144+370</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Phase 5</td>
+                    <td>KP 144+370</td>
+                    <td>KP 197+738</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function copyContent() {
+            const el = document.createElement('textarea');
+            el.value = document.querySelector('table').innerText;
+            document.body.appendChild(el);
+            el.select();
+            document.execCommand('copy');
+            document.body.removeChild(el);
+            alert('Content copied to clipboard');
+        }
+    </script>
+</body>
+</html>
+</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Phase</th>
+                    <th>From</th>
+                    <th>To</th>
+                    <th>Total shafts</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Phase 1</td>
+                    <td>KP 5+196</td>
+                    <td>KP 53+213</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>Phase 2</td>
+                    <td>KP 53+213</td>
+                    <td>KP 80+711</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Phase 3</td>
+                    <td>KP 80+711</td>
+                    <td>KP 110+539</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Phase 4</td>
+                    <td>KP 110+539</td>
+                    <td>KP 144+370</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Phase 5</td>
+                    <td>KP 144+370</td>
+                    <td>KP 197+738</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function copyContent() {
+            const el = document.createElement('textarea');
+            el.value = document.querySelector('table').innerText;
+            document.body.appendChild(el);
+            el.select();
+            document.execCommand('copy');
+            document.body.removeChild(el);
+            alert('Content copied to clipboard');
+        }
+    </script>
+</body>
+</html>
